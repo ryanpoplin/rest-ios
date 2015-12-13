@@ -9,7 +9,6 @@
 import Foundation
 
 struct TextValidation {
-    // always comment above regex's to define what it is they are good for...
     let regExMatchingString = "^[\\s?[a-zA-Z0-9\\-]]{0,5}$"
     func validateString(str: String) -> Bool {
         if let _ = str.rangeOfString(regExMatchingString, options: .RegularExpressionSearch) {

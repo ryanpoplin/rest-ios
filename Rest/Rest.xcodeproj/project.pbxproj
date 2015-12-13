@@ -22,6 +22,8 @@
 		4A71CDC91C1CCDFB00E6DA54 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4A71CDC71C1CCDFB00E6DA54 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4A71CDCC1C1CCE0C00E6DA54 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A71CDCB1C1CCE0C00E6DA54 /* SwiftyJSON.framework */; };
 		4A71CDCD1C1CCE0C00E6DA54 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4A71CDCB1C1CCE0C00E6DA54 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4A71CDCF1C1DEC8900E6DA54 /* StdGetRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A71CDCE1C1DEC8900E6DA54 /* StdGetRequest.swift */; };
+		4A71CDD11C1DEE0100E6DA54 /* StdApiRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A71CDD01C1DEE0100E6DA54 /* StdApiRequestTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +77,8 @@
 		4A71CDB91C1CBD6500E6DA54 /* TextValidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextValidation.swift; sourceTree = "<group>"; };
 		4A71CDC71C1CCDFB00E6DA54 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		4A71CDCB1C1CCE0C00E6DA54 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		4A71CDCE1C1DEC8900E6DA54 /* StdGetRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StdGetRequest.swift; sourceTree = "<group>"; };
+		4A71CDD01C1DEE0100E6DA54 /* StdApiRequestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StdApiRequestTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,7 @@
 				4A71CD951C1CBBE000E6DA54 /* Info.plist */,
 				4A71CD8D1C1CBBDF00E6DA54 /* Rest.xcdatamodeld */,
 				4A71CDB91C1CBD6500E6DA54 /* TextValidation.swift */,
+				4A71CDCE1C1DEC8900E6DA54 /* StdGetRequest.swift */,
 			);
 			path = Rest;
 			sourceTree = "<group>";
@@ -147,6 +152,7 @@
 				4A71CD9E1C1CBBE000E6DA54 /* RestTests.swift */,
 				4A71CDA01C1CBBE100E6DA54 /* Info.plist */,
 				4A71CDB71C1CBC9B00E6DA54 /* TextValidationTests.swift */,
+				4A71CDD01C1DEE0100E6DA54 /* StdApiRequestTests.swift */,
 			);
 			path = RestTests;
 			sourceTree = "<group>";
@@ -296,6 +302,7 @@
 				4A71CD891C1CBBDF00E6DA54 /* ViewController.swift in Sources */,
 				4A71CD871C1CBBDF00E6DA54 /* AppDelegate.swift in Sources */,
 				4A71CDBA1C1CBD6500E6DA54 /* TextValidation.swift in Sources */,
+				4A71CDCF1C1DEC8900E6DA54 /* StdGetRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +312,7 @@
 			files = (
 				4A71CDBB1C1CC01C00E6DA54 /* TextValidation.swift in Sources */,
 				4A71CD9F1C1CBBE000E6DA54 /* RestTests.swift in Sources */,
+				4A71CDD11C1DEE0100E6DA54 /* StdApiRequestTests.swift in Sources */,
 				4A71CDB81C1CBC9B00E6DA54 /* TextValidationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
