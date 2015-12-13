@@ -9,7 +9,7 @@
 			<key>jsonplaceholder.typicode.com</key>
 			<dict>
 				<key>NSThirdPartyExceptionAllowsInsecureHTTPLoads</key>
-				<string></string>
+				<true/>
 			</dict>
 		</dict>
 	</dict>
