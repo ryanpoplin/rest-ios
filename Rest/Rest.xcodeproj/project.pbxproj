@@ -79,6 +79,7 @@
 		4A71CDCB1C1CCE0C00E6DA54 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
 		4A71CDCE1C1DEC8900E6DA54 /* StdGetRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StdGetRequest.swift; sourceTree = "<group>"; };
 		4A71CDD01C1DEE0100E6DA54 /* StdApiRequestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StdApiRequestTests.swift; sourceTree = "<group>"; };
+		4A71CDD31C1E9CEA00E6DA54 /* algorithms&datastructures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "algorithms&datastructures.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +143,7 @@
 				4A71CD8D1C1CBBDF00E6DA54 /* Rest.xcdatamodeld */,
 				4A71CDB91C1CBD6500E6DA54 /* TextValidation.swift */,
 				4A71CDCE1C1DEC8900E6DA54 /* StdGetRequest.swift */,
+				4A71CDD31C1E9CEA00E6DA54 /* algorithms&datastructures.playground */,
 			);
 			path = Rest;
 			sourceTree = "<group>";

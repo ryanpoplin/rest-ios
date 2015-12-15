@@ -21,6 +21,14 @@ class StdApiRequestTests: XCTestCase {
         super.tearDown()
     }
     
+    // when writing unit tests, it's best to break things down to their most useful states...
+    
+    func testApiExistence() {
+        var structDude = StdGetRequest()
+        let thePost = structDude.testGetRequest()
+        XCTAssertEqual(thePost, [String: AnyObject]())
+    }
+    
     func testGetRequest() {
         var structDude = StdGetRequest()
         let thePost = structDude.testGetRequest()
